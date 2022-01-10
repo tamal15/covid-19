@@ -9,7 +9,7 @@ const Data = () => {
   const [country, setCountry] = useState([]) || '';
 
   const url = `https://api.covid19api.com/countries`;
-  const countryurl = `https://api.covid19api.com/dayone/country/${many ? many : 'Bangladesh'}`
+  const countryurl = `https://api.covid19api.com/dayone/country/${many ? many : 'India'}`
 
 
   useEffect(() => {
@@ -53,7 +53,7 @@ const Data = () => {
           <Select
             labelId="demo-simple-select-autowidth-label"
             id="demo-simple-select-autowidth"
-            // value={singleCounty ? singleCounty : 'Bangladesh'}
+            value={many ? many : 'India'}
             onChange={buttons}
             autoWidth
             label='Select'
@@ -76,6 +76,7 @@ const Data = () => {
 
       <div className="container moves">
         <Container>
+          <h1>Covid-19 All Country Details</h1>
           <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 2, sm: 8, md: 12 }}>
 
             <Grid item xs={2} sm={4} md={4}>

@@ -16,13 +16,15 @@
 .background-design{
     background-color:rgb(230, 243, 243);
     width:450px;
+    margin-left: 180px;
 
 }
 .background-designs{
-    background-color:rgb(230, 243, 243);
+    /* background-color:rgb(230, 243, 243); */
+    background-color:  rgb(172, 141, 172);;
     width:450px;
     height:300px;
-    margin-left:409px;
+    margin-left:200px;
     margin-top: 40px;
 
 }

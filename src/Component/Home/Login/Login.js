@@ -18,7 +18,7 @@ const Login = () => {
         })
     }
     return (
-        <div className='mt-5 pt-5 background-designs star '>
+        <div className='mt-5 pt-5 background-designs stars '>
               <h2 className='text-2xl font-bold but'>Please Login</h2>
 
 <button className="googles mt-5 pen " onClick={handleGoogle}>Google Signin</button>
