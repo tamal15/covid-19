@@ -1,0 +1,23 @@
+.good{
+    background-color: blanchedalmond;
+   
+}
+
+.uses{
+    background-color: burlywood;
+}
+.parts{
+    background-color: darkgrey;
+}
+
+.values{
+    /* background-color: gainsboro; */
+    background-color: skyblue;
+}
+.mans{
+    color: ghostwhite;
+}
+
+.moves{
+    margin-top: 30px;
+}

@@ -1,0 +1,48 @@
+.googles{
+    border:1px solid brown;
+    background:transparent;
+    background-color:#996965;
+    color:white;
+    padding: 10px;
+    width:250px;
+    font-size: 20px;
+}
+
+.googles:hover{
+    background-color:cadetblue;
+}
+
+
+.background-design{
+    background-color:rgb(230, 243, 243);
+    width:450px;
+
+}
+.background-designs{
+    background-color:rgb(230, 243, 243);
+    width:450px;
+    height:300px;
+    margin-left:409px;
+    margin-top: 40px;
+
+}
+
+.emails{
+    margin-left: -10px;
+    color:black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.background-design input, .login-col textarea{
+	width:70%;
+	padding:10px;
+	margin:15px 0;
+	box-sizing:border-box;
+	border:none;
+	outline:none;
+	background:#f0f0f0;
+    background-color:#fff;
+	border:1px solid;
+    border-radius: 15px;
+  }
